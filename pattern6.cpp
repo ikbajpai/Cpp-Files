@@ -1,18 +1,20 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    cout<<"Enter the value of n: "<<endl;
+int main()
+{
+    cout << "Enter the value of n: " << endl;
     int n;
-    cin>>n;
-    int row =1;
-    while(row<=n){
-        int col=1;
-        while(col<=row){
-            cout<<"*";
+    cin >> n;
+    int row = 1;
+    while (row <= n)
+    {
+        int col = 1;
+        while (col <= row)
+        {
+            cout << "*";
             col++;
-
         }
-        cout<<endl;
+        cout << endl;
         row++;
     }
 }

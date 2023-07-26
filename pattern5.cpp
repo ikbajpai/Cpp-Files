@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    std::cout << "Enter the value of n: "<<endl;
+    std::cout << "Enter the value of n: " << endl;
     int n;
     cin >> n;
     int row = 1;
@@ -12,7 +12,7 @@ int main()
         int col = 1;
         while (col <= n)
         {
-            cout << i<<" ";
+            cout << i << " ";
             i++;
             col++;
         }
