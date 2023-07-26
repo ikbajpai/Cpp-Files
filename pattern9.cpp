@@ -6,15 +6,12 @@ int main()
     int n;
     cin >> n;
     int row = 1;
-    int count;
     while (row <= n)
     {
         int col = 1;
-        count = row;
         while (col <= row)
         {
-            cout << count;
-            count++;
+            cout << col + row - 1;
             col++;
         }
         row++;
