@@ -12,7 +12,7 @@ int main()
         int col = 1;
         while (col <= n)
         {
-            cout << i;
+            cout << i<<" ";
             i++;
             col++;
         }
